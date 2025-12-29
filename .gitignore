@@ -1,0 +1,73 @@
+############################
+# IDEs
+############################
+.idea/
+*.iml
+*.iws
+.vscode/
+
+############################
+# IntelliJ HTTP Client
+############################
+.idea/httpRequests/
+http-client.cookies
+http-requests-log.http
+
+############################
+# OS files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Java / Build outputs
+############################
+**/target/
+**/build/
+*.log
+
+############################
+# Maven
+############################
+.mvn/wrapper/maven-wrapper.jar
+
+############################
+# Gradle
+############################
+.gradle/
+
+############################
+# Environment / Secrets
+############################
+.env
+.env.*
+
+############################
+# Docker
+############################
+*.pid
+
+############################
+# Kafka / Zookeeper data (if mounted later)
+############################
+kafka-data/
+zookeeper-data/
+
+############################
+# Kubernetes / Helm
+############################
+*.tgz
+charts/*.tgz
+
+############################
+# Test & coverage
+############################
+**/surefire-reports/
+**/test-results/
+**/coverage/
+
+############################
+# Runtime temp files
+############################
+*.tmp
+*.swp
